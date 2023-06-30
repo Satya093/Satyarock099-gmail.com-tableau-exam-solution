@@ -1,0 +1,46 @@
+Creating table calculations in Tableau allows you to perform calculations on your data based on specific dimensions or measures within a table. Table calculations enable you to derive insights, create new metrics, and perform complex calculations within your visualizations. Here's how to create table calculations in Tableau with examples:
+
+**Step 1: Connect to Data**
+Connect to the data source you want to use in Tableau.
+
+**Step 2: Create a Visualization**
+Create a visualization, such as a bar chart or line chart, that includes the fields you want to perform calculations on.
+
+**Step 3: Define a Table Calculation**
+To define a table calculation in Tableau, follow these steps:
+
+1. Right-click on the measure you want to perform the calculation on (e.g., Sales), and select "Add Table Calculation" from the context menu.
+
+2. Choose the desired calculation type from the available options, such as "Running Total," "Percent of Total," "Difference," or "Rank."
+
+3. Configure the specific settings for the table calculation, such as the partitioning (how the calculation is grouped) and the addressing (the order in which the calculation is applied).
+
+4. Click on "OK" to apply the table calculation to your visualization.
+
+**Example 1: Running Total**
+Suppose you have a bar chart that displays the sales for each month. You want to calculate the running total of sales to show the cumulative sales over time.
+
+1. Create a bar chart with the "Month" dimension on the x-axis and the "Sales" measure on the y-axis.
+
+2. Right-click on the "Sales" measure, select "Add Table Calculation," and choose "Running Total."
+
+3. Configure the settings as per your requirements, such as partitioning by "Month" and addressing by "Table (Across)."
+
+4. Click on "OK" to apply the running total calculation to your visualization.
+
+The bar chart will now display the running total of sales, providing insights into the cumulative sales growth over time.
+
+**Example 2: Percent of Total**
+Consider a stacked bar chart showing the sales by product category, and you want to calculate the percentage of total sales for each category.
+
+1. Create a stacked bar chart with the "Product Category" dimension on the x-axis and the "Sales" measure on the y-axis.
+
+2. Right-click on the "Sales" measure, select "Add Table Calculation," and choose "Percent of Total."
+
+3. Configure the settings as per your requirements, such as addressing by "Pane (Down)" to calculate the percentage within each category.
+
+4. Click on "OK" to apply the percent of total calculation to your visualization.
+
+The stacked bar chart will now display the percentage contribution of each product category to the total sales, allowing for comparison and identification of significant categories.
+
+Tableau provides numerous table calculation options, including window functions, aggregations, and custom calculations. By exploring the available table calculation types and configuring them based on your specific requirements, you can uncover valuable insights and perform advanced calculations within your visualizations.
