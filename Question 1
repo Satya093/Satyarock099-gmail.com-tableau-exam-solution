@@ -1,0 +1,29 @@
+q1.
+Area Graphs in Tableau:
+An area graph is a type of data visualization that represents quantitative data over time or a continuous range. It is similar to a line graph but with the area under the line filled with color, creating a visual representation of the data's magnitude. Area graphs are often used to show trends and patterns over time or to compare multiple data series.
+Creating an Area Graph in Tableau:
+Let's create an example area graph in Tableau using a sample dataset. For this example, I'll use a dataset containing sales data over different months.
+1.	Data Preparation: Ensure your dataset is in a tabular format with columns for the time dimension (e.g., months) and the measure (e.g., sales).
+2.	Connect to Data: Open Tableau and connect to your dataset by clicking on the "Connect" option and selecting your data source.
+3.	Drag and Drop Data:
+1.	Drag the date dimension field (e.g., "Month") to the Columns shelf.
+2.	Drag the measure field (e.g., "Sales") to the Rows shelf.
+4.	Create the Area Graph:
+1.	On the Marks card, click on the dropdown and choose "Area" from the list of mark types.
+2.	Tableau will automatically create an area graph showing the sales data over time.
+5.	Customize the Area Graph:
+1.	You can further customize the area graph by adding color, labels, and tooltips to enhance its readability and interactivity.
+Line Graphs in Tableau:
+A line graph, also known as a line chart, is a basic data visualization that displays data points connected by straight lines. It is commonly used to show trends and patterns in data over time or to compare different categories. In a line graph, each data point is represented as a mark (usually a dot), and the points are connected with lines.
+Creating a Line Graph in Tableau:
+Let's create an example line graph in Tableau using the same sample dataset as before.
+1.	Data Preparation: Ensure your dataset is in a tabular format with columns for the time dimension (e.g., months) and the measure (e.g., sales).
+2.	Connect to Data: Open Tableau and connect to your dataset by clicking on the "Connect" option and selecting your data source.
+3.	Drag and Drop Data:
+•	Drag the date dimension field (e.g., "Month") to the Columns shelf.
+•	Drag the measure field (e.g., "Sales") to the Rows shelf.
+4.	Create the Line Graph:
+•	On the Marks card, click on the dropdown and choose "Line" from the list of mark types.
+•	Tableau will automatically create a line graph showing the sales data over time.
+5.	Customize the Line Graph:
+You can further customize the line graph by adding labels, tooltips, color, and formatting options to make it more informative and visually appealing.
