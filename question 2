@@ -1,0 +1,39 @@
+In Tableau, grouping fields and combining tables are two different operations that serve distinct purposes. Let's explore each of these steps and their respective examples:
+
+**Grouping Fields in Tableau:**
+
+Grouping fields in Tableau allows you to combine multiple data points into a single category or group based on specific criteria. It can be useful for aggregating data and simplifying visualizations. Here's an example:
+
+**Example Scenario:**
+Let's say we have a dataset of customer sales with individual customer names and their corresponding sales amounts. We want to group the customers based on their sales into three categories: "High Sales," "Medium Sales," and "Low Sales."
+
+**Steps to Group Fields in Tableau:**
+
+1. Connect to your dataset in Tableau.
+2. Drag the customer name field to the Rows or Columns shelf.
+3. Select the individual customer names you want to group by clicking and dragging over them to highlight them.
+4. Right-click on the selected names and choose "Group."
+5. A new group called "Group 1" will be created. Rename it to something meaningful like "Sales Category."
+6. Drag the newly created group to the Rows or Columns shelf to use it in your visualization.
+
+In our example scenario, you would select the customers with high sales, such as "John," "Sarah," and "David," and group them into the "High Sales" category. Similarly, you would group customers with medium and low sales into their respective categories. This grouping allows you to analyze and visualize sales based on the created categories.
+
+**Combining Tables in Tableau:**
+
+Combining tables in Tableau involves merging or joining two or more tables based on common fields to create a single unified dataset. It allows you to analyze and visualize data from different tables in a cohesive manner. Here's an example:
+
+**Example Scenario:**
+Suppose we have two tables: one containing customer information (such as customer name, age, and location) and another table containing sales data (such as customer name, sales amount, and date). We want to combine these two tables based on the customer name to analyze customer information alongside their sales data.
+
+**Steps to Combine Tables in Tableau:**
+
+1. Connect to your datasets in Tableau, ensuring both tables are accessible.
+2. Drag the first table onto the canvas to create a view.
+3. Drag the common field (customer name) from the second table onto the canvas.
+4. Tableau will recognize the common field and suggest the join type. Choose the appropriate join type (e.g., inner join, left join) based on your data and analysis needs.
+5. Tableau will automatically combine the tables based on the selected join type.
+6. Once the tables are combined, you can use fields from both tables in your visualizations and analysis.
+
+In our example scenario, after combining the customer information and sales data tables based on the customer name, you can create visualizations that show customer-specific details alongside their sales information. For instance, you can create a bar chart comparing sales amounts for different customer locations or a scatter plot showing the relationship between customer age and sales.
+
+It's important to note that the specific steps for grouping fields and combining tables in Tableau may vary slightly depending on your dataset structure and Tableau version.
