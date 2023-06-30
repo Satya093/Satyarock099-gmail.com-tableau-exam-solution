@@ -1,0 +1,36 @@
+Heat Maps in Tableau:**
+
+A heat map is a data visualization technique that represents data values using colors. It provides a visual representation of the density or intensity of data across different categories or dimensions. Heat maps are particularly useful for identifying patterns, trends, and outliers in large datasets. Here's how to create a heat map in Tableau:
+
+**Example Scenario:**
+Let's say we have a dataset containing monthly sales data for different products across various regions. We want to create a heat map to visualize the sales performance by region and product category.
+
+**Steps to Create a Heat Map in Tableau:**
+
+1. Connect to your dataset in Tableau.
+2. Drag the "Region" dimension to the Columns shelf.
+3. Drag the "Product Category" dimension to the Rows shelf.
+4. Drag the "Sales" measure to the Color shelf.
+5. Tableau will automatically create a heat map where the color intensity represents the sales value.
+6. Customize the heat map by adjusting the color palette, adding labels, or modifying the color legend as desired.
+
+In our example scenario, the heat map will display a grid-like structure with regions on the x-axis, product categories on the y-axis, and color indicating the sales values. By examining the color variations, you can quickly identify regions or product categories with high or low sales performance.
+
+**Scatter Plots in Tableau:**
+
+A scatter plot is a two-dimensional data visualization that represents the relationship between two numerical variables. It displays data points as individual dots on a Cartesian coordinate system, with one variable represented on the x-axis and the other on the y-axis. Scatter plots are used to identify correlations, clusters, and outliers in the data. Here's how to create a scatter plot in Tableau:
+
+**Example Scenario:**
+Consider a dataset containing information about students, including their study hours and test scores. We want to create a scatter plot to visualize the relationship between study hours and test scores.
+
+**Steps to Create a Scatter Plot in Tableau:**
+
+1. Connect to your dataset in Tableau.
+2. Drag the "Study Hours" measure to the Columns shelf.
+3. Drag the "Test Scores" measure to the Rows shelf.
+4. Tableau will automatically create a scatter plot with study hours on the x-axis and test scores on the y-axis.
+5. Customize the scatter plot by adding labels, adjusting axes, changing point shapes, or applying additional formatting options.
+
+In our example scenario, the scatter plot will display individual data points representing each student. The horizontal position of the point corresponds to the study hours, while the vertical position represents the test scores. By analyzing the scatter plot, you can identify any patterns or trends between study hours and test scores, such as a positive or negative correlation.
+
+Please note that the above steps provide a general guideline to create heat maps and scatter plots in Tableau. The specific process may vary depending on your dataset, desired visualizations, and Tableau version.
