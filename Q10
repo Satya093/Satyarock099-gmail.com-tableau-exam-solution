@@ -1,0 +1,30 @@
+To add story points to a dashboard in Tableau, follow these steps:
+
+1. Create a Story: First, you need to create a story that contains the desired story points. A story in Tableau is a sequence of visualizations, dashboards, and other content arranged to present a narrative or analysis. To create a story:
+   - Click on the "Story" tab at the bottom of the Tableau window.
+   - Click on the "New Story" button or select "New Story" from the "Story" menu.
+   - Drag and drop worksheets or dashboards from the left pane onto the story canvas to add them as story points.
+   - Customize the layout, captions, and annotations for each story point as needed.
+
+2. Create a Dashboard: Once you have created the story with the desired story points, you can add the story to a dashboard. A dashboard is a collection of visualizations and other content that provides an overview or detailed analysis of data. To create a dashboard:
+   - Click on the "Dashboard" tab at the bottom of the Tableau window.
+   - Click on the "New Dashboard" button or select "New Dashboard" from the "Dashboard" menu.
+   - Drag and drop worksheets, story points, or other desired content from the left pane onto the dashboard canvas.
+   - Arrange and resize the content to create the desired layout.
+
+3. Add the Story to the Dashboard: To add the story points to the dashboard:
+   - Click on the "Objects" pane on the left side of the Tableau window.
+   - Locate the story that you want to add to the dashboard.
+   - Drag and drop the story onto the dashboard canvas.
+
+4. Customize the Story Point Size and Navigation: By default, Tableau will display the story points as rectangular containers on the dashboard. You can customize the size and navigation options for the story points as follows:
+   - Select the story point container on the dashboard.
+   - Use the sizing handles to adjust the size of the container.
+   - Right-click on the story point container and select "Show Caption" to display the caption or title for the story point.
+   - Right-click on the story point container and select "Show Navigation Buttons" to add navigation buttons for moving between story points.
+
+5. Format and Enhance the Dashboard: Customize the dashboard by formatting the visual elements, adding filters, interactivity, or other desired features to enhance the user experience and storytelling.
+
+6. Save and Share: Once you have created and customized the dashboard with the story points, save the workbook, and share it with others for analysis or presentation.
+
+By adding story points to a dashboard, you can create a cohesive narrative or analysis that combines multiple visualizations and content to provide a comprehensive view of the data.
